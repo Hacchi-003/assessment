@@ -45,7 +45,7 @@ assessmentButton.onclick = () => {
     tweetDivided.appendChild(anchor);
 
     //widgets.js の設定
-    const script = document.createElement('script')
+    const script = document.createElement('script');
     script.setAttribute('src', 'http://platform.twitter.com/widgets.js');
     tweetDivided.appendChild(script);
 };
