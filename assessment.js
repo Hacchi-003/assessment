@@ -49,7 +49,6 @@ assessmentButton.onclick = () => {
     script.setAttribute('src', 'http://platform.twitter.com/widgets.js');
     tweetDivided.appendChild(script);
 };
-
 const answers = [
     '{userName}のいいところは声です。{userName}の特徴的な声は皆を惹きつけ、心に残ります。',
     '{userName}のいいところはまなざしです。{userName}に見つめられた人は、気になって仕方がないでしょう。',
@@ -99,3 +98,4 @@ console.assert(
     assessment('太郎') === assessment('太郎'),
     '入力が同じ名前なら同じ診断結果を出力する処理が正しくありません。'
 );
+
